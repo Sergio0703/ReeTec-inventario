@@ -11,7 +11,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-<form  action="validar.php" method="POST">
+<form action="validar.php" method="POST">
 <div id="login" >
         <div class="container">
             <div id="login-row" class="row justify-content-center align-items-center">
@@ -34,13 +34,7 @@
                                     <br>
                                 <a href="registros.php"><input type="button"  class="btn btn-primary space" value="registrarse"></a>
                             </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
     </form>
 </body>
 </html>

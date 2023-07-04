@@ -25,12 +25,14 @@
 </div>
 
 <div class="row">
-<div class="col-sm-6">
-<div class="mb-3">
-<label for="añoLanzamiento" class="form-label">Año de lanzamiento</label>
-<input type="text"  id="añoLanzamiento" name="añoLanzamiento" class="form-control" required>
-</div>
-</div>
+    <div class="col-sm-6">
+        <div class="mb-3">
+            <label for="añoLanzamiento" class="form-label">Año de lanzamiento</label>
+            <input type="text" id="añoLanzamiento" name="añoLanzamiento" class="form-control" pattern="[0-9]{4}" maxlength="4" required>
+            <small class="text-muted">Ingrese un número de 4 dígitos.</small>
+        </div>
+    </div>
+
 
 <div class="col-sm-6">
 <div class="mb-3">
@@ -45,14 +47,12 @@
 </div>
 
 
-</div>
-</div>
 <div class="row">
     <div class="col-sm-12">
     <div class="mb-3">
 <label for="categorias" class="form-label">Categoria</label>
 <select name="categorias" id="categorias" class="form-control" required>
-<option value="Accion">Accion</option>
+    <option value="Accion">Accion</option>
     <option value="Drama">Drama</option>
     <option value="Novela">Novela</option>
     <option value="Infantiles">Infantiles</option>
@@ -60,9 +60,11 @@
     <option value="Negocios">Negocios</option>
     <option value="Videojuegos">Videojuegos</option>
     <option value="Comics">Comics</option>
+</select>
     </div>   
 </div>
-</div>
+
+
 <div class="mb-3">
 <div class="row">
         <div class="col-sm-12">
@@ -71,15 +73,14 @@
             </div>
         </div>
     </div>
-</div>
+
 
 <div class="mb-3">
 <input type="hidden" name="accion" value="insertar_productos">
 <button type="submit" class="btn btn-success">Guardar</button>
 </div>
 </form>
-</div>
-</div>
+
 </body>
 
 <?php 

@@ -48,55 +48,5 @@
   </div>
 </div>
 
-<script>
-  function validarFormulario() {
-    var nombre = document.getElementById('nombre').value;
-    var correo = document.getElementById('correo').value;
-    var password = document.getElementById('password').value;
-    var telefono = document.getElementById('telefono').value;
-
-    var errores = 0;
-    var errorNombre = document.getElementById('errorNombre');
-    var errorCorreo = document.getElementById('errorCorreo');
-    var errorPassword = document.getElementById('errorPassword');
-    var errorTelefono = document.getElementById('errorTelefono');
-
-    errorNombre.innerHTML = '';
-    errorCorreo.innerHTML = '';
-    errorPassword.innerHTML = '';
-    errorTelefono.innerHTML = '';
-
-    if (nombre.trim() === '') {
-      errorNombre.innerHTML = 'El nombre es obligatorio.';
-      errores++;
-    }
-
-    if (correo.trim() === '') {
-      errorCorreo.innerHTML = 'El correo electrónico es obligatorio.';
-      errores++;
-    }
-
-    if (password.trim() === '') {
-      errorPassword.innerHTML = 'La contraseña es obligatoria.';
-      errores++;
-    }
-
-    if (telefono.trim() === '') {
-      errorTelefono.innerHTML = 'El teléfono es obligatorio.';
-      errores++;
-    } else if (!/^(\d{1,10})$/.test(telefono)) {
-      errorTelefono.innerHTML = 'El teléfono debe contener solo números y tener un máximo de 10 dígitos.';
-      errores++;
-    }
-
-    if (errores > 0) {
-      return false;
-    }
-  }
-
-  var formulario = document.getElementById('formulario');
-  formulario.addEventListener('submit', validarFormulario);
-</script>
-
 </body>
 </html>
