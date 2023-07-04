@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/lib/codemirror.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/hint/show-hint.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/lint/lint.css?v=5.1.3">
-    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=2614015382ltr&server=1">
+    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=1181994689ltr&server=1">
     <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/printview.css?v=5.1.3" media="print" id="printcss">
     <title>localhost / 127.0.0.1 | phpMyAdmin 5.1.3</title>
     <script data-cfasync="false" type="text/javascript" src="js/vendor/jquery/jquery.min.js?v=5.1.3"></script>
@@ -562,7 +562,7 @@ $.extend(defaultValues, {
                         Presione Enter para ejecutar la consulta                    </span>
                 </div>
                                                             <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
+                            targetdb="tienda" targettable="user">
                             <div class="action_content">
                     <span class="action collapse">
             Colapsar
@@ -597,7 +597,311 @@ $.extend(defaultValues, {
                             : <span>durante la sesión actual</span>
                     </span>
             </div>
-                            <span class="query">SELECT * FROM `productos`</span>
+                            <span class="query">SELECT * FROM `user`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `user`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `user`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `user`</span>
+                        </div>
+                                            <div class="message history collapsed hide"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">DELETE FROM `user` WHERE `user`.`id` = 21</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `user`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `user`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `user`</span>
+                        </div>
+                                            <div class="message history collapsed hide"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">DELETE FROM `user` WHERE `user`.`id` = 24</span>
                         </div>
                                             <div class="message history collapsed hide select"
                             targetdb="tienda" targettable="productos">
@@ -638,7 +942,7 @@ $.extend(defaultValues, {
                             <span class="query">SELECT * FROM `productos`</span>
                         </div>
                                             <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
+                            targetdb="tienda" targettable="user">
                             <div class="action_content">
                     <span class="action collapse">
             Colapsar
@@ -673,10 +977,10 @@ $.extend(defaultValues, {
                             : <span>durante la sesión actual</span>
                     </span>
             </div>
-                            <span class="query">SELECT * FROM `productos`</span>
+                            <span class="query">SELECT * FROM `user`</span>
                         </div>
                                             <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
+                            targetdb="tienda" targettable="user">
                             <div class="action_content">
                     <span class="action collapse">
             Colapsar
@@ -711,10 +1015,48 @@ $.extend(defaultValues, {
                             : <span>durante la sesión actual</span>
                     </span>
             </div>
-                            <span class="query">SELECT * FROM `productos`</span>
+                            <span class="query">SELECT * FROM `user`</span>
+                        </div>
+                                            <div class="message history collapsed hide"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">DELETE FROM `user` WHERE `user`.`id` = 25</span>
                         </div>
                                             <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
+                            targetdb="tienda" targettable="user">
                             <div class="action_content">
                     <span class="action collapse">
             Colapsar
@@ -749,7 +1091,159 @@ $.extend(defaultValues, {
                             : <span>durante la sesión actual</span>
                     </span>
             </div>
-                            <span class="query">SELECT * FROM `productos`</span>
+                            <span class="query">SELECT * FROM `user`</span>
+                        </div>
+                                            <div class="message history collapsed hide"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">DELETE FROM `user` WHERE `user`.`id` = 26</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `user`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `user`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="tienda" targettable="user">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>tienda</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `user`</span>
                         </div>
                                             <div class="message history collapsed hide select"
                             targetdb="tienda" targettable="productos">
@@ -942,7 +1436,7 @@ $.extend(defaultValues, {
                             <span class="query">SELECT * FROM `productos`</span>
                         </div>
                                             <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
+                            targetdb="tienda" targettable="user">
                             <div class="action_content">
                     <span class="action collapse">
             Colapsar
@@ -977,501 +1471,7 @@ $.extend(defaultValues, {
                             : <span>durante la sesión actual</span>
                     </span>
             </div>
-                            <span class="query">SELECT * FROM `productos`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `productos`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `productos`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `productos`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `productos`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `productos`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `productos`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `productos`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `productos`</span>
-                        </div>
-                                            <div class="message history collapsed hide"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">DELETE FROM `productos` WHERE `productos`.`id` = 39</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `productos`</span>
-                        </div>
-                                            <div class="message history collapsed hide"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">DELETE FROM `productos` WHERE `productos`.`id` = 36</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `productos`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="tienda" targettable="productos">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>tienda</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `productos`</span>
+                            <span class="query">SELECT * FROM `user`</span>
                         </div>
                                             <div class="message history collapsed hide select"
                             targetdb="tienda" targettable="productos">

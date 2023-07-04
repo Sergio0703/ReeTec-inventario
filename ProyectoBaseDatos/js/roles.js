@@ -69,11 +69,11 @@ function selectData(respuesta = '') {
         })
         .then((res) => res.json())
         .then((response) => {
-            $('#nombre').val(response.NombreLibro);
-            $('#descripcion').val(response.Autor);
-            $('#color').val(response.añoLanzamiento);
-            $('#precio').val(response.FisicoVirtual);
-            $('#cantidad').val(response.Categoria);
+            $('#NombreLibro').val(response.NombreLibro);
+            $('#Autor').val(response.Autor);
+            $('#añoLanzamiento').val(response.añoLanzamiento);
+            $('#FisicoVirtual').val(response.FisicoVirtual);
+            $('#categorias').val(response.categorias);
             console.log(response)})
         }
         })
